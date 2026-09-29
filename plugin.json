@@ -8,6 +8,7 @@
     "ru": "НИП, который сбрасывает сохранения подземелий игрока."
   },
   "authors": [ "AzerothCore" ],
+  "license": "GPL-2.0-or-later",
   "homepage": "https://github.com/azerothcore/mod-instance-reset",
   "source": {
     "repo": "https://github.com/azerothcore/mod-instance-reset.git",

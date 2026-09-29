@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" width="128" alt="logo"></p>
+
 # mod-instance-reset plugin
 
 Builds [azerothcore/mod-instance-reset](https://github.com/azerothcore/mod-instance-reset) as a plugin for
@@ -40,4 +42,4 @@ step. To rework a patch, edit the checkout in `build/_deps/mod-instance-reset-sr
 
 ## License
 
-The module's repository states no license; its code stays under its authors' terms. The build files of this repository are under GPL-2.0-or-later.
+This repository (build files and patches) is under GNU General Public License v2.0 or later, see [LICENSE](LICENSE). The module's own repository states no license; its code stays under its authors' terms.
