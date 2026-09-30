@@ -1,0 +1,29 @@
+{
+  "group": { "en": "Instance reset", "ru": "Сброс подземелий" },
+  "hint": { "en": "An NPC that removes your instance saves", "ru": "NPC, который снимает ваши сохранения подземелий" },
+  "fields": [
+    { "key": "instanceReset.Enable", "type": "bool", "default": true, "apply": "reload",
+      "label": { "en": "Instance reset enabled", "ru": "Сброс подземелий включён" } },
+    { "key": "instanceReset.Announcer", "type": "bool", "default": true, "apply": "reload",
+      "label": { "en": "Message on login", "ru": "Сообщение при входе" } },
+    { "key": "instanceReset.NormalModeOnly", "type": "bool", "default": false, "apply": "reload",
+      "label": { "en": "Normal difficulty only", "ru": "Только обычная сложность" },
+      "hint": { "en": "Heroic saves are kept", "ru": "Сохранения героических подземелий остаются" } },
+    { "key": "instanceReset.TransactionType", "type": "choice", "default": 0, "apply": "reload",
+      "label": { "en": "Price", "ru": "Плата" },
+      "options": [
+        { "value": "0", "label": { "en": "Free", "ru": "Бесплатно" } },
+        { "value": "1", "label": { "en": "Tokens", "ru": "Жетоны" } },
+        { "value": "2", "label": { "en": "Money", "ru": "Деньги" } },
+        { "value": "3", "label": { "en": "Money and tokens", "ru": "Деньги и жетоны" } }
+      ] },
+    { "key": "instanceReset.TokenID", "type": "int", "min": 0, "default": 49426, "apply": "reload",
+      "label": { "en": "Token item", "ru": "Предмет-жетон" },
+      "hint": { "en": "item_template entry; 49426: Emblem of Frost", "ru": "Номер из item_template; 49426: эмблема льда" } },
+    { "key": "instanceReset.TokenCount", "type": "int", "min": 0, "max": 65535, "default": 26, "apply": "reload",
+      "label": { "en": "Tokens per reset", "ru": "Жетонов за сброс" } },
+    { "key": "instanceReset.MoneyCount", "type": "int", "min": 0, "default": 10000000, "apply": "reload",
+      "label": { "en": "Money per reset, copper", "ru": "Денег за сброс, в меди" },
+      "hint": { "en": "10000000 copper = 1000 gold", "ru": "10000000 меди = 1000 золотых" } }
+  ]
+}

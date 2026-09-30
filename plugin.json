@@ -1,7 +1,7 @@
 {
   "format": 1,
   "id": "mod-instance-reset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": { "en": "Instance reset", "ru": "Сброс подземелий" },
   "description": {
     "en": "An NPC that resets the instance saves of the player.",
@@ -19,5 +19,6 @@
   "platforms": [ "windows-x64" ],
   "server": { "library": "mod_instance_reset" },
   "databases": { "world": "data/sql/db-world" },
-  "config": "conf/instance-reset.conf.dist"
+  "config": "conf/instance-reset.conf.dist",
+  "settings": "settings.json"
 }
