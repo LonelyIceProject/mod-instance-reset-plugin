@@ -1,7 +1,7 @@
 {
   "format": 1,
   "id": "mod-instance-reset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": { "en": "Instance reset", "ru": "Сброс подземелий" },
   "description": {
     "en": "An NPC that resets the instance saves of the player.",
@@ -10,6 +10,7 @@
   "authors": [ "AzerothCore" ],
   "license": "GPL-2.0-or-later",
   "homepage": "https://github.com/azerothcore/mod-instance-reset",
+  "locales": [ "en", "es", "ru" ],
   "source": {
     "repo": "https://github.com/azerothcore/mod-instance-reset.git",
     "commit": "1e2c20770f40f5382348b7649291371f47c86812"
